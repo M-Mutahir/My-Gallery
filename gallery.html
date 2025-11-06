@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Image Gallery</title>
+  <link rel="stylesheet" href="design.css">
+  <script defer src="source.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Explore <span>Our Gallery</span></h1>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="nature">Nature</button>
+      <button class="filter-btn" data-category="architecture">Architecture</button>
+      <button class="filter-btn" data-category="animals">Animals</button>
+      <button class="filter-btn" data-category="travel">Travel</button>
+      <button class="filter-btn" data-category="food">Food</button>
+      <button class="filter-btn" data-category="people">People</button>
+    </div>
+  </header>
+
+  <section class="gallery-container">
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1018/600/400"></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1020/600/400"></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1043/600/400"></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/237/600/400"></div>
+    <div class="gallery-item" data-category="people"><img src="https://picsum.photos/id/1005/600/400"></div>
+    <div class="gallery-item" data-category="food"><img src="https://picsum.photos/id/1080/600/400"></div>
+    <div class="gallery-item" data-category="travel"><img src="https://picsum.photos/id/1056/600/400"></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1021/600/400"></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1033/600/400"></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/433/600/400"></div>
+    <div class="gallery-item" data-category="food"><img src="https://picsum.photos/id/1084/600/400"></div>
+    <div class="gallery-item" data-category="travel"><img src="https://picsum.photos/id/1039/600/400"></div>
+    <div class="gallery-item" data-category="people"><img src="https://picsum.photos/id/1009/600/400"></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1038/600/400"></div>
+    <div class="gallery-item" data-category="architecture"><img src="https://picsum.photos/id/1040/600/400"></div>
+    <div class="gallery-item" data-category="animals"><img src="https://picsum.photos/id/593/600/400"></div>
+    <div class="gallery-item" data-category="food"><img src="https://picsum.photos/id/1081/600/400"></div>
+    <div class="gallery-item" data-category="travel"><img src="https://picsum.photos/id/1044/600/400"></div>
+    <div class="gallery-item" data-category="people"><img src="https://picsum.photos/id/1027/600/400"></div>
+    <div class="gallery-item" data-category="nature"><img src="https://picsum.photos/id/1052/600/400"></div>
+  </section>
+
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" src="">
+    <div class="lightbox-controls">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </div>
+
+  <footer>
+    <a href="home.html" class="back-home">← Back to Home</a>
+    <p>Mutahir Sohail Gallery| Built with ❤️ using HTML, CSS & JS using internet images refrenced with links</p>
+  </footer>
+</body>
+</html>
